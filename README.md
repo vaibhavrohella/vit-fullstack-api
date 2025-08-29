@@ -13,14 +13,14 @@ REST API built according to VIT Full Stack question requirements.
 ## Local Setup
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+- Node.js
+- npm
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/vaibhavrohella/vit-fullstack-api.git
    cd vit-fullstack-api
    ```
 
@@ -30,7 +30,7 @@ REST API built according to VIT Full Stack question requirements.
    ```
 
 3. **Update your details**
-   Edit `server.js` and replace the placeholder values:
+   Edit `server.js` and replace the placeholder values to your name:
    ```javascript
    user_id: "vaibhav_rohella_07112003",
    email: "vaibhav.rohella2022@vitstudent.ac.in",
@@ -169,19 +169,7 @@ curl -X POST http://localhost:3000/bfhl \
    - Reverses the order
    - Applies alternating caps (lowercase for even indices, uppercase for odd)
 
-## Important Notes
 
-- All numbers in response are returned as strings
-- User ID format: `full_name_ddmmyyyy` (lowercase)
-- The concat_string follows reverse order with alternating caps
-- Error handling included for invalid inputs
-
-## Submission
-
-1. Update your personal details in the code
-2. Deploy to any hosting platform
-3. Test the `/bfhl` endpoint
-4. Submit the URL in the provided form: https://forms.office.com/r/ZeVpUYp3zV
 
 ## File Structure
 
