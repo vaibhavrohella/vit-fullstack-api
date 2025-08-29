@@ -91,7 +91,7 @@ Health check endpoint.
 
 ## Deployment Options
 
-### 1. Vercel (Recommended)
+### 1. Vercel
 
 1. **Install Vercel CLI**
    ```bash
@@ -120,31 +120,6 @@ Health check endpoint.
        }
      ]
    }
-   ```
-
-### 2. Railway
-
-1. **Connect GitHub repository to Railway**
-2. **Deploy automatically from GitHub**
-3. **Set environment variables if needed**
-
-### 3. Render
-
-1. **Connect GitHub repository**
-2. **Select Node.js environment**
-3. **Build command**: `npm install`
-4. **Start command**: `npm start`
-
-### 4. Heroku
-
-1. **Install Heroku CLI**
-2. **Create Heroku app**
-   ```bash
-   heroku create your-app-name
-   ```
-3. **Deploy**
-   ```bash
-   git push heroku main
    ```
 
 ## Testing
